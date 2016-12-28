@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DynamicChangeIconDemo</string>
+    <string name="test11">双十一</string>
+    <string name="test12">双十二</string>
+</resources>
