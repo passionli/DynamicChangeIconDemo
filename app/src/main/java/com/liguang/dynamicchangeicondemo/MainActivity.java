@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        initData();
+//        initData();
         initView();
     }
 
@@ -41,6 +41,6 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         //mock data from server
         int displayIcon = 11;
-        //  ChangeIconUtils.switchToIcon(this, displayIcon);
+        ChangeIconUtils.switchToIcon(this, displayIcon);
     }
 }
